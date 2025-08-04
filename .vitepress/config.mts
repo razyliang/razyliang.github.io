@@ -12,7 +12,7 @@ export default defineConfig(async ({command, mode}) => {
 
   return {
     srcDir: 'src',
-    outDir: 'dist',
+    outDir: 'docs',
     lastUpdated: true,
     // 应用级配置选项
     ...config(mode),
